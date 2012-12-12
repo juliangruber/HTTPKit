@@ -67,5 +67,10 @@ HTTPKit is a lightweight framework for building webservers in Objective-C or [Tr
             
     NSRunLoop mainRunLoop runUntilDate: NSDate distantFuture
             
-            
-            
+## Installation
+
+```bash
+$ git submodule init
+$ git submodule update
+$ open HTTPKit.xcodeproj
+```
