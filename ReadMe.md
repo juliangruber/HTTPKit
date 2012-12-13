@@ -70,7 +70,6 @@ HTTPKit is a lightweight framework for building webservers in Objective-C or [Tr
 ## Installation
 
 ```bash
-$ git submodule init
-$ git submodule update
-$ open HTTPKit.xcodeproj
+$ git pull --recursive https://github.com/fjolnir/HTTPKit.git
+$ open HTTPKit/HTTPKit.xcodeproj
 ```
